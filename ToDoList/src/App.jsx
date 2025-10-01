@@ -13,7 +13,7 @@ function App() {
       id: Date.now(),
       text: newTask,
       completed: false,
-      important: isImportant, // New property for important tasks
+      important: isImportant, 
     };
 
     setTasks([...tasks, task]);
